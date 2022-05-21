@@ -4,44 +4,6 @@ body {
  /* background-image: url('/images/background2.png');*/
 }
 
-.navbar {
-	padding: 0.2rem 0.4rem;
-}
-
-.footer p {
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
-}
-
-.footer .nav-link {
-    padding: 0.1rem 0.1rem;
-}
-
-.footer label {
-    margin-bottom: 0.1rem;
-}
-
-.footer .poweredby {
-    margin-right: 0.2rem;
-    font-size: 80%;
-}
-
-.footer .social-link {
-    margin-right: 0.2rem;
-    font-size: 100%;
-}
-
-.footer .social-link img{
-	width: 40px;
-	margin: 5px 5px;
-}
-
-.footer-logo {
-	height: 40px;
-	position: absolute;
-	bottom: 0px;
-}
-
 #index-search {
 	width: 80%;
 }
@@ -80,18 +42,12 @@ body {
 	overflow: hidden;
 }
 
+.mono {
+	font-family: 'Overpass Mono', monospace;
+}
+
 .panel-address-summary {
  margin-bottom: 5px;
-}
-
-p {
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	margin-bottom: 0.2rem;
-	margin-top: 0.5rem;
 }
 
 /* datatable tweaks */
@@ -144,6 +100,9 @@ tr {
 	margin-left:5px;
 }
 
+#twitter-icon {
+	font-size: 20px;
+}
 .connections {
 	position: absolute;
 	bottom: 15px;
@@ -152,6 +111,11 @@ tr {
 
 #lblBlockcount {
 	margin-right: 10px;
+}
+
+#twitter-icon img{
+	width: 40px;
+	margin: 5px 5px;
 }
 
 #market_menu {
@@ -192,21 +156,71 @@ tr {
 	    width: 150px !important;
     }
 }
-.table>tbody>tr>td.addr-summary {
-	line-height: 7.7;
-	font-size: 1.3em;
-	font-weight: 800;
-	text-align: center;
-}
-
 .qrcode {
-	/*position: absolute;
+	position: absolute;
 	top: 65px;
-	right: 15px;*/
+	right: 15px;
 }
 
-
-.decimal {
-	font-size: 0.7em;
+.footer-logo {
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
 }
 
+.panel-summary p {
+	font-size: 13px;
+	margin: 0 0 3px;
+}
+
+.panel-summary h1 {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0px;
+	line-height: 0.8;
+
+}
+
+.panel-summary h3 {
+	font-size: 12px;
+	color: gray;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.panel-summary h5 {
+	font-size: 12px;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.panel-summary .panel-body {
+	min-height: 90px;
+}
+
+.coin-info {
+
+}
+
+.coin-info h2 {
+	margin: 3px;
+	padding: 0;
+}
+
+.coin-info h5.sub {
+	margin: 0;
+	padding: 0;
+	color: #ababab;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.coin-info .info-row {
+	min-height: 100px;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+.coin-info .row.earnings {
+	margin-bottom: 5px;
+}
